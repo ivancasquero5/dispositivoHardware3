@@ -1,0 +1,103 @@
+body{
+font-family: "Montserrat Bold", sans-serif;
+/* grosor*/
+  font-weight: 400;
+}
+
+h2{
+    color:#2D9C75;
+}
+
+
+h1{
+    color: #FFFFFF;
+    text-align: center;
+    }
+
+/*----------- cAbecera ----------------*/
+.cabecera{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /*margenes espacio fotos de tabla */
+    gap: 10px;
+
+    background-image: url('../images/imagencabecera2.webp');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    /*redondeo de cuadros */
+    border-radius: 10px;
+}
+/*---------------------------*/
+
+
+
+/*----------- introduccion -------------*/
+.introduccion{
+    /*margenes externos para separar*/
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+
+    /*margenes internos para separar*/
+    padding:  20px;
+    background-color: #EDEDED;
+    border:solid 1px #333;
+    border-radius:5px;
+}
+/*---------------------------*/
+
+
+/*----------galeria de fotos -----------*/
+.galeria{
+    
+    margin-top: 10px;
+    gap: 10px;
+    text-align:center;
+    
+    border-radius:10px;
+    width: 100%;
+    height: 200px;
+    border-radius:5px;
+
+}
+.galeria2{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:auto;
+    
+    border-radius:5px;
+}
+/*---------------------------*/
+
+
+/*----------- evolucion ----------------*/
+.evolucion{
+    margin-top: 140px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+    border: 20px;
+    
+}
+/*---------------------------*/
+
+/*----------- Bibliografía ---------------*/
+.bibliografia{
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+/*---------------------------*/
+.footer{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
